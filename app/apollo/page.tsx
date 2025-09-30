@@ -1,4 +1,4 @@
-/* eslint-disable react/no-unescaped-entities */
+
 "use client";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -55,7 +55,7 @@ const Apollo = () => {
                            </Button>
 
                            <p className="text-sm text-gray-700">
-                                By signing up, I agree to Apollo's  
+                                By signing up, I agree to Apollo&&apos;s 
                                 <Link href="/terms-of-service" className="underline hover:text-gray-500">
                                 Terms of Service
                                 </Link>{" "}
@@ -164,7 +164,8 @@ const Apollo = () => {
                     </div>
 
                     <div className="flex items-end gap-10 my-15">
-                        <p className="font-medium text-5xl">"Apollo supports people <br /> who want to be <br /> innovative — to do <br /> something new."</p>
+                        <p className="font-medium text-5xl">&quot;Apollo supports people <br /> who want to be <br /> innovative — to do <br /> something new.&quot;
+                        </p>
 
                         <div className="max-full mx-auto">
                             <p className="uppercase text-xs mb-3">Grace Feeny</p>
@@ -284,7 +285,7 @@ const Apollo = () => {
                 <div className="bg-yellow-200 mt-3 pt-5 grid grid-cols-2 items-start px-7 rounded-xl mb-10">
                     <div className="max-w-xl">
                         <p className="text-5xl mb-15 pt-15 font-medium">The best sales platform in the world, at an (almost) unbelievable value</p>
-                        <p className="mb-7 text-[15px]">You don't have to spend a fortune to run a world- <br />class revenue-generating machine. Replace <br /> ZoomInfo, Outreach, Salesloft, Gong, Chili Piper,<br /> and more with Apollo to cut costs and get better <br /> results.</p>
+                        <p className="mb-7 text-[15px]">You don&apos;t have to spend a fortune to run a world- <br />class revenue-generating machine. Replace <br /> ZoomInfo, Outreach, Salesloft, Gong, Chili Piper,<br /> and more with Apollo to cut costs and get better <br /> results.</p>
                         
                         <div className="flex items-center gap-3">
                             <Button className="py-6 px-6 bg-black font-normal hover:bg-gray-800 duration-300 cursor-pointer text-base">See pricing</Button>
