@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -15,9 +16,6 @@ import { SiAutodesk } from "react-icons/si";
 import { SiDolby } from "react-icons/si";
 import { FaProductHunt } from "react-icons/fa6";
 import { FiArrowRight } from "react-icons/fi";
-
-
-
 
 const Apollo = () => {
     return (
