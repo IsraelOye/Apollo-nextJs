@@ -385,7 +385,7 @@ const Apollo = () => {
                                 </Link>{" "}
                                 and{" "}
                                 <Link href="/privacy-policy" className="underline hover:text-gray-500">
-                                    Privacy Policy.
+                                    Privacy Policyy.
                                 </Link>
                             </p>
                         </div>
