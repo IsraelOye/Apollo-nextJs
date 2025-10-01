@@ -331,7 +331,7 @@ const Apollo = () => {
 
             {/* SECTION 1: HERO SECTION WITH FORM */}
             {/* STEP 1: Change from 2 columns to 1 column on mobile, stack vertically */}
-            <section className="bg-gradient-to-r from-white via-white via-40% to-purple-300 px-4 sm:px-7 mt-5 mb-5 rounded-xl">
+            <section className="bg-gradient-to-r from-white via-white via-30% to-purple-300 px-4 sm:px-7 mt-5 mb-5 rounded-xl">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-0">
                     
                     {/* LEFT SIDE - Form and Content */}
@@ -393,9 +393,9 @@ const Apollo = () => {
 
                     {/* RIGHT SIDE - Workflow Cards */}
                     {/* STEP 8: Hide on mobile, show on large screens only */}
-                    <div className="hidden lg:block my-18">
+                    <div className="lg:block my-18">
                         <div className="space-y-4 mb-12">
-                            <div className="bg-white flex items-center gap-3 max-w-sm rounded-sm px-3 py-2 mx-auto">
+                            <div className="bg-white flex items-center gap-3 max-w-sm rounded-sm px-3 py-2 mx-auto shadow-2xl">
                                 <div className="bg-gray-800 text-white rounded-full p-3 flex items-center justify-center shrink-0">
                                     <CiUser className="text-xl"/>
                                 </div>
@@ -409,7 +409,7 @@ const Apollo = () => {
                                 </div>
                             </div>
 
-                            <div className="bg-white flex items-center gap-3 max-w-sm rounded-sm px-3 py-2 mx-auto">
+                            <div className="bg-white flex items-center gap-3 max-w-sm rounded-sm px-3 py-2 mx-auto shadow-2xl">
                                 <div className="bg-purple-400 text-white rounded-full p-3 flex items-center justify-center shrink-0">
                                     <BsStars className="text-xl"/>
                                 </div>
@@ -425,7 +425,7 @@ const Apollo = () => {
                         </div>
 
                         <div className="space-y-4">
-                            <div className="bg-white flex items-center gap-3 max-w-90 rounded-sm px-3 py-2">
+                            <div className="bg-white flex items-center gap-3 max-w-90 rounded-sm px-3 py-2 shadow-2xl">
                                 <div className="bg-gray-800 text-white rounded-full p-3 flex items-center justify-center shrink-0">
                                     <TfiReload className="text-xl"/>
                                 </div>
@@ -438,7 +438,7 @@ const Apollo = () => {
                                 </div>
                             </div>
 
-                            <div className="bg-white flex items-center gap-3 max-w-90 rounded-sm px-3 py-2">
+                            <div className="bg-white flex items-center gap-3 max-w-90 rounded-sm px-3 py-2 shadow-2xl">
                                 <div className="bg-purple-400 text-white rounded-full p-3 flex items-center justify-center shrink-0">
                                     <RiMailAiLine className="text-xl"/>
                                 </div>
