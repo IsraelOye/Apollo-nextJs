@@ -18,7 +18,7 @@ const Homepage = () => {
         <div>
           <div className="bg-background-2 px-10 py-8 rounded-xl">
             <p className="mb-6 text-4xl leading-11 font-medium">Suffering from <br /> a slipped disc <br /> or chromic <br /> back pain?</p>
-            <p className="mb-6 text-sm">Hill DT Spinal Decompression therapy could <br /> be the solution you're looking for.</p>
+            <p className="mb-6 text-sm">Hill DT Spinal Decompression therapy could <br /> be the solution you&apos;re looking for.</p>
 
             <Button size="lg" className="rounded-full bg-background-1 text-primary hover:cursor-pointer">Book online</Button>
           </div>
