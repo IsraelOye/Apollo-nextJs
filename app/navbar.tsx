@@ -49,17 +49,20 @@ const Navbar = () => {
             <div className="flex items-center justify-between">
                 
                 {/* STEP 2: Logo - always visible on all screens */}
-                <div className="flex items-center gap-1.5">
-                    <BsFan className="text-background-4 text-2xl" />
-                    <p className="text-2xl font-medium">Apollo</p>
-                </div>
+                <div className="flex items-center gap-15">
 
-                {/* STEP 3: Desktop Navigation Links - hidden on mobile (hidden), visible on large screens (lg:flex) */}
-                <div className="hidden lg:flex items-center gap-7 text-sm">
-                    <p className="hover:text-gray-500 duration-300 cursor-pointer">Platform</p>
-                    <p className="hover:text-gray-500 duration-300 cursor-pointer">Roles</p>
-                    <p className="hover:text-gray-500 duration-300 cursor-pointer">Resources</p>
-                    <p className="hover:text-gray-500 duration-300 cursor-pointer">Pricing</p>
+                    <div className="flex items-center gap-1.5">
+                        <BsFan className="text-background-4 text-2xl" />
+                        <p className="text-2xl font-medium">Apollo</p>
+                    </div>
+                    
+                    {/* STEP 3: Desktop Navigation Links - hidden on mobile (hidden), visible on large screens (lg:flex) */}
+                    <div className="hidden lg:flex items-center gap-7 text-sm lg:mt-1">
+                        <p className="hover:text-gray-500 duration-300 cursor-pointer">Platform</p>
+                        <p className="hover:text-gray-500 duration-300 cursor-pointer">Roles</p>
+                        <p className="hover:text-gray-500 duration-300 cursor-pointer">Resources</p>
+                        <p className="hover:text-gray-500 duration-300 cursor-pointer">Pricing</p>
+                    </div>
                 </div>
 
                 {/* STEP 4: Desktop Buttons - hidden on mobile, visible on medium screens and up */}
